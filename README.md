@@ -1,2 +1,2 @@
 # CPP-Modules
-"Time to dive into Object Oriented Programming!"
+Introduction to Object-Oriented Programming Projects
