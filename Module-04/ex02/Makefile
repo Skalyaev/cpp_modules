@@ -21,8 +21,8 @@ RM		= rm -rf
 
 all		: ${NAME}
 
-ifeq ($(HEADER_COUNT), 0)
-ifeq ($(SRC_COUNT), 1)
+ifeq ($(HEADER_COUNT), 5)
+ifeq ($(SRC_COUNT), 5)
 ${NAME}		: $(OBJ_DIR) $(OBJ_SUBDIR) ${OBJ}
 		${CC} ${CFLAGS} ${OBJ} -o ${NAME}
 else

@@ -22,7 +22,7 @@ RM		= rm -rf
 
 all		: ${NAME}
 
-ifeq ($(HEADER_COUNT), 0)
+ifeq ($(HEADER_COUNT), 1)
 ifeq ($(SRC_COUNT), 1)
 ${NAME}		: $(OBJ_DIR) $(OBJ_SUBDIR) ${OBJ}
 		${CC} ${CFLAGS} ${OBJ} -o ${NAME}
