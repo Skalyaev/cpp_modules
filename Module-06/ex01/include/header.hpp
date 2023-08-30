@@ -1,12 +1,11 @@
 #ifndef HEADER_HPP
-	#define HEADER_HPP
+#define HEADER_HPP
 
-	#include <iostream>
-	#include <stdint.h>
+#include <iostream>
+#include <stdint.h>
 
-	struct Data
-	{
-		int	member;
-	};
-
+struct Data
+{
+        int member;
+};
 #endif

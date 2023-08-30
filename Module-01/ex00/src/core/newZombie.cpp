@@ -1,6 +1,6 @@
 #include "../../include/header.hpp"
 
-Zombie* newZombie( const std::string name )
+Zombie *newZombie(const std::string name)
 {
-	return new Zombie( name );
+        return new Zombie(name);
 }

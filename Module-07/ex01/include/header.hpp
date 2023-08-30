@@ -1,7 +1,6 @@
 #ifndef HEADER_HPP
-	#define HEADER_HPP
+#define HEADER_HPP
 
-	#include "templates/iter.hpp"
-	#include "templates/printValue.hpp"
-
+#include "template/iter.hpp"
+#include "template/printValue.hpp"
 #endif

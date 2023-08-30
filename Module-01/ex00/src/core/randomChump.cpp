@@ -1,8 +1,8 @@
 #include "../../include/header.hpp"
 
-void	randomChump( const std::string name )
+void randomChump(const std::string name)
 {
-	Zombie	Temp( name );
+        Zombie Temp(name);
 
-	Temp.announce();
+        Temp.announce();
 }

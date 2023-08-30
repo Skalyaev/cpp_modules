@@ -1,6 +1,6 @@
 #include "../../include/class/PhoneBook.hpp"
 
-PhoneBook::PhoneBook() : count( 0 )
+PhoneBook::PhoneBook() : count(0)
 {
 }
 
@@ -8,19 +8,19 @@ PhoneBook::~PhoneBook()
 {
 }
 
-Contact& PhoneBook::getMember( const int index )
+Contact &PhoneBook::getMember(const int index)
 {
-	return this->members[ index ];
+        return this->members[index];
 }
 
-const int& PhoneBook::showCount( void ) const
+const int &PhoneBook::showCount(void) const
 {
-	return this->count;
+        return this->count;
 }
 
-void	PhoneBook::updateCount( void )
+void PhoneBook::updateCount(void)
 {
-	this->count++;
-	if ( this->count > 8 )
-		this->count = 8;
+        this->count++;
+        if (this->count > 8)
+                this->count = 8;
 }

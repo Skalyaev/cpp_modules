@@ -1,32 +1,30 @@
 #include "../../include/class/Dog.hpp"
 
-Dog::Dog() :
-	Animal::Animal()
+Dog::Dog() : Animal::Animal()
 {
-	std::cout << "[ DEFAULT ][ " << this << " ] Dog constructor called" << std::endl;
-	this->type = "Dog";
+        std::cout << "[ DEFAULT ][ " << this << " ] Dog constructor called" << std::endl;
+        this->type = "Dog";
 }
 
-Dog::Dog( const Dog& src ) :
-	Animal::Animal( src )
+Dog::Dog(const Dog &src) : Animal::Animal(src)
 {
-	std::cout << "[ COPY ][ " << this << " ] Dog constructor called" << std::endl;
+        std::cout << "[ COPY ][ " << this << " ] Dog constructor called" << std::endl;
 }
 
 Dog::~Dog()
 {
-	std::cout << "[ " << this << " ] Dog destructor called" << std::endl;
+        std::cout << "[ " << this << " ] Dog destructor called" << std::endl;
 }
 
-Dog& Dog::operator=( const Dog& src )
+Dog &Dog::operator=(const Dog &src)
 {
-	std::cout << "[ " << this << " ] Dog copy assignment operator called" << std::endl;
-	this->type = src.getType();
-	return *this;
+        std::cout << "[ " << this << " ] Dog copy assignment operator called" << std::endl;
+        this->type = src.getType();
+        return *this;
 }
 
-void Dog::makeSound( void ) const
+void Dog::makeSound(void) const
 {
-	std::cout << "[ " << this << " ][ makeSound ] Dog member function called" << std::endl;
-	std::cout << "Wuf" << std::endl;
+        std::cout << "[ " << this << " ][ makeSound ] Dog member function called" << std::endl;
+        std::cout << "Wuf" << std::endl;
 }

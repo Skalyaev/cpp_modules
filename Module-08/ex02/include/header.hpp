@@ -1,6 +1,5 @@
 #ifndef HEADER_HPP
-	#define HEADER_HPP
+#define HEADER_HPP
 
-	#include "templates/MutantStack.hpp"
-
+#include "template/MutantStack.hpp"
 #endif

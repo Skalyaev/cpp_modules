@@ -1,12 +1,11 @@
 #ifndef PRINT_VALUE_HPP
-	#define PRINT_VALUE_HPP
+#define PRINT_VALUE_HPP
 
-	#include <iostream>
+#include <iostream>
 
-	template< typename T > 
-	void printValue( T& value )
-	{
-		std::cout << value << std::endl;
-	}
-
+template <typename T>
+void printValue(T &value)
+{
+        std::cout << value << std::endl;
+}
 #endif
