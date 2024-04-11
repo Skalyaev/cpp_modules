@@ -3,10 +3,6 @@ NAME=megaphone
 CC=c++
 CFLAGS=-Wall -Wextra -Werror -std=c++98
 
-INCLUDE_DIR=include
-HEADER_EXT=hpp
-HEADER=$(shell find $(INCLUDE_DIR) -type f -name "*.$(HEADER_EXT)")
-
 SRC_EXT=cpp
 SRC_DIR=src
 SRC=$(shell find $(SRC_DIR) -type f -name "*.$(SRC_EXT)")
