@@ -15,4 +15,3 @@
 - [x] 06 - Casts
 - [x] 07 - Templates
 - [x] 08 - Templated containers, itérateurs, algorithmes
-
